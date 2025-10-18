@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import { NavermapsProvider } from "react-naver-maps";
+import Container from "./Container";
+import Account from "./sections/Account";
+import Calendar from "./sections/Calendar";
+import Description from "./sections/Description";
+import Gallery from "./sections/Gallery";
+import Location from "./sections/Location";
+import Top from "./sections/Top";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Top />
+      <Description />
+      <Calendar />
+      <Gallery />
+      <Location />
+      <Account />
+    </Container>
   );
 }
 
