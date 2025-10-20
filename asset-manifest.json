@@ -1,19 +1,16 @@
 {
   "files": {
-    "main.css": "/mswj-wedding.info/static/css/main.40abde75.css",
-    "main.js": "/mswj-wedding.info/static/js/main.8de636e4.js",
-    "static/media/IMG_3053.JPG": "/mswj-wedding.info/static/media/IMG_3053.398105a3de99d8e1f755.JPG",
-    "static/media/IMG_3055.JPG": "/mswj-wedding.info/static/media/IMG_3055.105af84057561feec8ce.JPG",
-    "static/media/IMG_3057.JPG": "/mswj-wedding.info/static/media/IMG_3057.3e575bc5036c256b23fe.JPG",
-    "static/media/IMG_3054.JPG": "/mswj-wedding.info/static/media/IMG_3054.8cedcf4aaeb382de4634.JPG",
-    "static/media/IMG_3056.JPG": "/mswj-wedding.info/static/media/IMG_3056.9e2517bc8c415c47ad38.JPG",
-    "static/media/IMG_3157.PNG": "/mswj-wedding.info/static/media/IMG_3157.f0f1ae2742e8942f82c6.PNG",
-    "index.html": "/mswj-wedding.info/index.html",
-    "main.40abde75.css.map": "/mswj-wedding.info/static/css/main.40abde75.css.map",
-    "main.8de636e4.js.map": "/mswj-wedding.info/static/js/main.8de636e4.js.map"
+    "main.css": "/static/css/main.40abde75.css",
+    "main.js": "/static/js/main.8de636e4.js",
+    "static/media/IMG_3053.JPG": "/static/media/IMG_3053.398105a3de99d8e1f755.JPG",
+    "static/media/IMG_3055.JPG": "/static/media/IMG_3055.105af84057561feec8ce.JPG",
+    "static/media/IMG_3057.JPG": "/static/media/IMG_3057.3e575bc5036c256b23fe.JPG",
+    "static/media/IMG_3054.JPG": "/static/media/IMG_3054.8cedcf4aaeb382de4634.JPG",
+    "static/media/IMG_3056.JPG": "/static/media/IMG_3056.9e2517bc8c415c47ad38.JPG",
+    "static/media/IMG_3157.PNG": "/static/media/IMG_3157.f0f1ae2742e8942f82c6.PNG",
+    "index.html": "/index.html",
+    "main.40abde75.css.map": "/static/css/main.40abde75.css.map",
+    "main.8de636e4.js.map": "/static/js/main.8de636e4.js.map"
   },
-  "entrypoints": [
-    "static/css/main.40abde75.css",
-    "static/js/main.8de636e4.js"
-  ]
+  "entrypoints": ["static/css/main.40abde75.css", "static/js/main.8de636e4.js"]
 }
