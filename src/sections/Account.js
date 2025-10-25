@@ -34,6 +34,9 @@ const Container = styled.div`
   align-items: center;
   padding-top: 24px;
   gap: 32px;
+  @media (max-width: 420px) {
+    width: calc(100% - 64px);
+  }
 `;
 
 const AccountsInfoWrapper = styled.div`
