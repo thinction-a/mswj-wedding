@@ -11,4 +11,6 @@ const ContainerComponent = styled.div`
   max-width: 430px;
   position: relative;
   width: 100%;
+  margin: 0 auto;
+  min-width: 320px;
 `;

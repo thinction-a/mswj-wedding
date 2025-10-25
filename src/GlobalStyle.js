@@ -196,6 +196,30 @@ const GlobalStyle = createGlobalStyle`
       font-size: var(--font-size);
     }
   }
+  /* .pswp__zoom-wrap {
+    max-width: 420px !important;
+    margin: 0 auto;
+    } */
+  .pswp__img {
+    /* max-width: 420px !important;  */
+    width: fit-content;
+    /* height: auto !important;  */
+    height: 100dvh;
+    object-fit: contain !important;
+    margin: 0 auto !important;
+    display: block;
+
+}
+@media (max-width: 420px) {
+    .pswp__img {
+        max-width: 420px !important;
+    }
+}
+@media (min-width: 768px) {
+    .pswp__img {
+        max-height: 100vh !important;
+    }
+}
 `;
 
 export default GlobalStyle;

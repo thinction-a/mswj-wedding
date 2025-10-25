@@ -36,7 +36,11 @@ const GalleryComponent = () => {
     borderRadius: "4px",
   };
   return (
-    <GalleryPhotoSwipe>
+    <GalleryPhotoSwipe
+      options={{
+        bgOpacity: 0.9,
+      }}
+    >
       <div
         style={{
           display: "grid",
@@ -51,8 +55,8 @@ const GalleryComponent = () => {
               cropped
               original={img.source}
               thumbnail={img.source}
-              width={img.width}
-              height={img.height}
+              // width={img.width}
+              // height={img.height}
             >
               {({ ref, open }) => (
                 <img
@@ -105,7 +109,7 @@ const images = [
   {
     source: require("../assets/img/photo/IMG_3157.PNG"),
     alt: "image6",
-    width: 640,
-    height: 960,
+    width: "auto",
+    height: "100%",
   },
 ];

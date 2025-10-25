@@ -126,7 +126,7 @@ const CalendarContainer = styled.div`
   }
   @media (min-width: 420px) {
     .calendar {
-      width: 420px;
+      width: 375px;
     }
   }
 `;

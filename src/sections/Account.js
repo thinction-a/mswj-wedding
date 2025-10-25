@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { HeadingComponent } from "../GlobalStyle";
+import { HeadingComponent, P } from "../GlobalStyle";
 
 const Account = () => {
   return (
@@ -32,7 +32,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 48px;
+  padding-top: 24px;
   gap: 32px;
 `;
 
@@ -41,6 +41,7 @@ const AccountsInfoWrapper = styled.div`
   width: 90%;
   flex-direction: column;
   padding: 20px;
+  padding-top: 0;
 `;
 
 const accountsInfo = [
@@ -53,8 +54,8 @@ const accountsInfo = [
   {
     relation: "신부",
     name: "정원정",
-    bank: "토스뱅크",
-    accountNumber: "1000-1666-8860",
+    bank: "부산은행",
+    accountNumber: "112-2187-1744-01",
   },
 ];
 
@@ -87,7 +88,6 @@ const AccountComponent = ({ name, relation, bank, accountNumber }) => {
 };
 
 const Wrapper = styled.div`
-  font-family: "SUITE-Regular";
   padding: 10px 0;
   border-bottom: 1px solid #dfdfdf;
   &:last-of-type {
@@ -96,20 +96,23 @@ const Wrapper = styled.div`
   }
   display: flex;
   flex-direction: column;
+  gap: 0.2rem;
 `;
 
 const Info = styled.div`
   height: inherit;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   gap: 5px;
   margin: 5px 0;
 `;
-const Relation = styled.span`
+const Relation = styled(P)`
   color: #44484d;
+  font-size: 0.7rem;
+  opacity: 0.7;
 `;
-const Name = styled.span`
-  font-size: 1rem;
+const Name = styled(P)`
+  font-size: 0.85rem;
 `;
 
 const Details = styled.div`
@@ -118,7 +121,10 @@ const Details = styled.div`
   justify-content: space-between;
 `;
 
-const AccountInfo = styled.div``;
+const AccountInfo = styled(P)`
+  font-size: 0.75rem;
+`;
+
 const CopyButton = styled.button`
   border: none;
   border-radius: 5px;
@@ -127,5 +133,7 @@ const CopyButton = styled.button`
   gap: 2px;
   outline: none;
   box-shadow: none;
-  background: white;
+  background: var(--btn-bg-color);
+  color: #544f4f;
+  font-family: "MaruBuri";
 `;
