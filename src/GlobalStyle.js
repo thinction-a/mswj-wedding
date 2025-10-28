@@ -75,7 +75,7 @@ const GlobalStyle = createGlobalStyle`
     --border-light-color: #e9e5e5;
     --wave-color: #fbfbfb;
     --primary-bg-color: #fbfbfb;
-    --primary-bg-image: url('./assets/img/bg1.jpg');
+    --primary-bg-image: url("${process.env.PUBLIC_URL}/bg1.jpg");
     --secondary-bg-color: #f6f5f5;
     --third-bg-color: #f2eeee;
     --fourth-bg-color: #fff;

@@ -21,6 +21,7 @@ export default Calendar;
 
 const Container = styled.div`
   background: var(--primary-bg-color);
+  background-image: var(--primary-bg-image);
   position: relative;
   padding: 0 32px var(--font-size);
   display: flex;
