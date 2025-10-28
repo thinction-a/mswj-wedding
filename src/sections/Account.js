@@ -14,6 +14,7 @@ const Account = () => {
               bank={bank}
               name={name}
               relation={relation}
+              key={name}
             />
           );
         })}

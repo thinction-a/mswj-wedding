@@ -7,6 +7,7 @@
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.1.0",
     "@testing-library/user-event": "^13.2.1",
+    "firebase": "^12.4.0",
     "photoswipe": "^5.4.4",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
@@ -46,6 +47,5 @@
   "devDependencies": {
     "gh-pages": "^6.3.0"
   },
-  "homepage": "https://thinction-a.github.io/mswj-wedding/",
   "homepage": "https://mswj-wedding.info"
 }
