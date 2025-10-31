@@ -13,7 +13,10 @@ const Top = () => {
           SUNDAY
         </P>
       </Title>
-      <IntroImage src={require("../assets/img/photo/IMG_3053.JPG")} />
+      <IntroImage
+        src={require("../assets/img/photo/IMG_3053.JPG")}
+        loading="lazy"
+      />
       <RowContainer>
         <P fontSize={"12px"}>
           신랑 <strong>김민석</strong>
