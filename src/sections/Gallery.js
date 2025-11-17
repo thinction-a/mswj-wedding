@@ -72,6 +72,7 @@ const GalleryComponent = () => {
                   ref={ref}
                   alt={img.alt}
                   style={smallItemStyles}
+                  loading="lazy"
                 />
               )}
             </Item>
@@ -83,116 +84,116 @@ const GalleryComponent = () => {
 };
 
 const images = [
-  // {
-  //   source: require("../assets/img/photo/20250901-MS&WC-0612.jpg"),
-  //   alt: "image1",
-  //   width: "auto",
-  //   height: "100%",
-  // },
   {
-    source: require("../assets/img/photo/20250901-MS&WC-0680.jpg"),
+    source: require("../assets/img/photo/20250901-MS&WC-0612.webp"),
+    alt: "image1",
+    width: "auto",
+    height: "100%",
+  },
+  {
+    source: require("../assets/img/photo/20250901-MS&WC-0680.webp"),
     alt: "image2",
     width: "auto",
     height: "100%",
   },
   {
-    source: require("../assets/img/photo/20250901-MS&WC-0712.jpg"),
+    source: require("../assets/img/photo/20250901-MS&WC-0712.webp"),
     alt: "image3",
     width: "auto",
     height: "100%",
   },
   {
-    source: require("../assets/img/photo/20250901-MS&WC-0834.jpg"),
+    source: require("../assets/img/photo/20250901-MS&WC-0834.webp"),
     alt: "image4",
     width: "auto",
     height: "100%",
   },
   {
-    source: require("../assets/img/photo/20250901-MS&WC-1313.jpg"),
+    source: require("../assets/img/photo/20250901-MS&WC-1313.webp"),
     alt: "image5",
     width: "auto",
     height: "100%",
   },
   {
-    source: require("../assets/img/photo/20250901-MS&WC-1340.jpg"),
+    source: require("../assets/img/photo/20250901-MS&WC-1340.webp"),
     alt: "image6",
     width: "auto",
     height: "100%",
   },
   {
-    source: require("../assets/img/photo/20250901-MS&WC-1421.jpg"),
+    source: require("../assets/img/photo/20250901-MS&WC-1421.webp"),
     alt: "image7",
     width: "auto",
     height: "100%",
   },
   {
-    source: require("../assets/img/photo/20250901-MS&WC-1529.jpg"),
+    source: require("../assets/img/photo/20250901-MS&WC-1529.webp"),
     alt: "image8",
     width: "auto",
     height: "100%",
   },
   {
-    source: require("../assets/img/photo/20250901-MS&WC-1612.jpg"),
+    source: require("../assets/img/photo/20250901-MS&WC-1612.webp"),
     alt: "image9",
     width: "auto",
     height: "100%",
   },
   {
-    source: require("../assets/img/photo/20250901-MS&WC-1658.jpg"),
+    source: require("../assets/img/photo/20250901-MS&WC-1658.webp"),
     alt: "image10",
     width: "auto",
     height: "100%",
   },
   {
-    source: require("../assets/img/photo/20250901-MS&WC-1855.jpg"),
+    source: require("../assets/img/photo/20250901-MS&WC-1855.webp"),
     alt: "image11",
     width: "auto",
     height: "100%",
   },
   {
-    source: require("../assets/img/photo/20250901-MS&WC-1903.jpg"),
+    source: require("../assets/img/photo/20250901-MS&WC-1903.webp"),
     alt: "image12",
     width: "auto",
     height: "100%",
   },
   {
-    source: require("../assets/img/photo/20250901-MS&WC-1979.jpg"),
+    source: require("../assets/img/photo/20250901-MS&WC-1979.webp"),
     alt: "image13",
     width: "auto",
     height: "100%",
   },
   {
-    source: require("../assets/img/photo/20250901-MS&WC-1981.jpg"),
+    source: require("../assets/img/photo/20250901-MS&WC-1981.webp"),
     alt: "image14",
     width: "auto",
     height: "100%",
   },
   {
-    source: require("../assets/img/photo/20250901-MS&WC-2305.jpg"),
+    source: require("../assets/img/photo/20250901-MS&WC-2305.webp"),
     alt: "image15",
     width: "auto",
     height: "100%",
   },
   {
-    source: require("../assets/img/photo/20250901-MS&WC-2313.jpg"),
+    source: require("../assets/img/photo/20250901-MS&WC-2313.webp"),
     alt: "image16",
     width: "auto",
     height: "100%",
   },
   {
-    source: require("../assets/img/photo/20250901-MS&WC-2340.jpg"),
+    source: require("../assets/img/photo/20250901-MS&WC-2340.webp"),
     alt: "image17",
     width: "auto",
     height: "100%",
   },
+  // {
+  //   source: require("../assets/img/photo/20250901-MS&WC-2381.webp"),
+  //   alt: "image18",
+  //   width: "auto",
+  //   height: "100%",
+  // },
   {
-    source: require("../assets/img/photo/20250901-MS&WC-2381.jpg"),
-    alt: "image18",
-    width: "auto",
-    height: "100%",
-  },
-  {
-    source: require("../assets/img/photo/20250901-MS&WC-2540.jpg"),
+    source: require("../assets/img/photo/20250901-MS&WC-2540.webp"),
     alt: "image19",
     width: "auto",
     height: "100%",

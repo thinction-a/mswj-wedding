@@ -14,8 +14,9 @@ const Top = () => {
         </P>
       </Title>
       <IntroImage
-        src={require("../assets/img/photo/20250901-MS&WC-2381.jpg")}
-        loading="lazy"
+        src={require("../assets/img/photo/20250901-MS&WC-2381.webp")}
+        // loading="lazy"
+        rel="preload"
       />
       <RowContainer>
         <P fontSize={"12px"}>
