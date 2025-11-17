@@ -62,13 +62,13 @@ const accountsInfo = [
         accountNumber: "1000-1666-8860",
       },
       {
-        relation: "신랑측 혼주",
+        relation: "신랑 아버지",
         name: "김동국",
         bank: "우체국",
         accountNumber: "110-0042-55687",
       },
       {
-        relation: "신랑측 혼주",
+        relation: "신랑 어머니",
         name: "이선천",
         bank: "하나은행",
         accountNumber: "393-910479-84607",
@@ -85,7 +85,7 @@ const accountsInfo = [
         accountNumber: "112-2187-1744-01",
       },
       {
-        relation: "신부측 혼주",
+        relation: "신부 어머니",
         name: "이혜경",
         bank: "부산은행",
         accountNumber: "126-12-032154-1",
