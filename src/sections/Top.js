@@ -14,7 +14,7 @@ const Top = () => {
         </P>
       </Title>
       <IntroImage
-        src={require("../assets/img/photo/IMG_3053.JPG")}
+        src={require("../assets/img/photo/20250901-MS&WC-2381.jpg")}
         loading="lazy"
       />
       <RowContainer>
@@ -64,7 +64,8 @@ const Title = styled.div`
 const IntroImage = styled.img`
   width: 100%;
   aspect-ratio: 9/16;
-  max-height: 430px;
+  /* max-height: 430px; */
+  max-height: 480px;
   object-fit: cover;
   overflow: hidden;
   padding: 0 0 var(--font-size);
