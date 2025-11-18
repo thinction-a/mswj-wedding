@@ -115,7 +115,7 @@ const images = [
     height: "100%",
   },
   {
-    source: require("../assets/img/photo/20250901-MS&WC-1340.webp"),
+    source: require("../assets/img/photo/20250901-MS&WC-1340_edit.webp"),
     alt: "image6",
     width: "auto",
     height: "100%",
@@ -127,7 +127,7 @@ const images = [
     height: "100%",
   },
   {
-    source: require("../assets/img/photo/20250901-MS&WC-1529.webp"),
+    source: require("../assets/img/photo/20250901-MS&WC-1529_edit.webp"),
     alt: "image8",
     width: "auto",
     height: "100%",
@@ -139,7 +139,7 @@ const images = [
     height: "100%",
   },
   {
-    source: require("../assets/img/photo/20250901-MS&WC-1658.webp"),
+    source: require("../assets/img/photo/20250901-MS&WC-1658_edit.webp"),
     alt: "image10",
     width: "auto",
     height: "100%",
