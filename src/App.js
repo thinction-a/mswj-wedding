@@ -9,10 +9,10 @@ import { lazy, Suspense } from "react";
 import { LoadingComponent } from "./sections/Loading";
 import { css } from "styled-components";
 
+const Gallery = lazy(() => import("./sections/Gallery"));
+
 function App() {
   const commentsPageId = window.location.pathname.replace("/", "") || "home";
-
-  const Gallery = lazy(() => import("./sections/Gallery"));
 
   return (
     <Container>
