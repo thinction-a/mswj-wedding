@@ -1,8 +1,24 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import { P } from "../GlobalStyle";
+// import { fetchImageUrl } from "./Gallery";
 
 const Top = () => {
+  // const [ introImageUrl, setIntroImageUrl] = useState('')
+
+  // useEffect(() => {
+  //   const getIntroImage = async () => {
+  //   return await fetchImageUrl("wedding-photo/20250901-MS&WC-2381.webp")
+  //     .then((url) => setIntroImageUrl(url))
+  //     .catch((err) => {
+  //       console.error(err);
+  //       return setIntroImageUrl('');
+  //     });
+  // };
+
+  // getIntroImage()
+  // }, [])
+
   return (
     <Container>
       <Title>

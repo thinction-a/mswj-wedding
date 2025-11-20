@@ -8,8 +8,9 @@ import Comments from "./sections/Comments";
 import { lazy, Suspense } from "react";
 import { LoadingComponent } from "./sections/Loading";
 import { css } from "styled-components";
+import Gallery from "./sections/Gallery";
 
-const Gallery = lazy(() => import("./sections/Gallery"));
+// const Gallery = lazy(() => import("./sections/Gallery"));
 
 function App() {
   const commentsPageId = window.location.pathname.replace("/", "") || "home";
@@ -19,7 +20,7 @@ function App() {
       <Top />
       <Description />
       <Calendar />
-      <Suspense
+      {/* <Suspense
         fallback={
           <LoadingComponent
             text="갤러리 로딩 중..."
@@ -29,9 +30,9 @@ function App() {
             `}
           />
         }
-      >
-        <Gallery />
-      </Suspense>
+      > */}
+      <Gallery />
+      {/* </Suspense> */}
       <Location />
       <Account />
       <Comments pageId={commentsPageId} />
